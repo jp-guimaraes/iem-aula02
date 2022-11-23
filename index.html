@@ -1,0 +1,247 @@
+<!doctype html>
+<html lang="en">
+  <head>
+	<meta name="generator" content="Hugo 0.98.0" />
+    <meta charset="utf-8">
+<title>Instalação e Montagem de Computadores</title>
+
+
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="/iem-aula02/reveal-js/css/reset.css">
+<link rel="stylesheet" href="/iem-aula02/reveal-js/css/reveal.css"><link rel="stylesheet" href="/iem-aula02/robot-lung.css" id="theme"><link rel="stylesheet" href="/iem-aula02/highlight-js/color-brewer.min.css">
+    
+  </head>
+  <body>
+    
+    <div class="reveal">
+      <div class="slides">
+  
+
+    <section><h1 id="aula-02">Aula 02</h1>
+<p>Instalação e Montagem de Computadores</p>
+<p><a href="https://jp-guimaraes.github.io/">🌐 João Paulo Guimarães</a></p>
+</section>
+
+  
+
+    <section>
+
+<section data-shortcode-section>
+<h1 id="objetivos">Objetivos</h1>
+<ul>
+<li>
+<p>Rápida revisão sobre os componentes do painel frontal</p>
+</li>
+<li>
+<p>Teoria painel frontal</p>
+</li>
+<li>
+<p>Instalação do painel frontal - práticas</p>
+</li>
+</ul>
+</section><section>
+<h1 id="sumário">Sumário</h1>
+<ol>
+<li>Componentes do painel frontal</li>
+<li>Aspectos teóricos relacionados a prática do painel frontal</li>
+<li>Roteiro - práticas do painel frontal</li>
+</ol>
+
+</section>
+</section>
+    <section>
+
+<section data-shortcode-section>
+<h1 id="painel-frontal">Painel frontal</h1>
+</section><section>
+<h3 id="componentes">Componentes</h3>
+<ul>
+<li>Componentes do painel frontal
+<ul>
+<li>USBs</li>
+<li>Saída para fone de ouvido</li>
+<li>Entrada para microfone</li>
+<li>Botões (ligar/desligar + reset)</li>
+<li>Luzes indicadoras</li>
+<li>Drive de cd/DVD/Bluray</li>
+<li>HD externo</li>
+<li>Mostrador de temperatura</li>
+<li>Controladores de FAN</li>
+</ul>
+</li>
+</ul>
+</section><section>
+<h3 id="conexões">Conexões</h3>
+<ul>
+<li>Conexões - Memória secundária
+<ul>
+<li>SATA -&gt; Placa mãe</li>
+<li>Cabo de energia -&gt; Fonte</li>
+</ul>
+</li>
+</ul>
+</section><section>
+<h3 id="usb">USB</h3>
+<pre><code>– USB 1.0 – Taxa de transferência de até 1.5 Mbps (Low-Speed)
+– USB 1.1 – Taxa de transferência de até 12 Mbps (Full-Speed)
+– USB 2.0 – Taxa de transferência de até 480 Mbps (Hi-Speed)
+– USB 3.0 – Taxa de transferência de até 5 Gbps (SuperSpeed)
+– USB 3.1 – Taxa de transferência de até 10 Gbps (SuperSpeed+)
+– USB 3.2 – Taxa de transferência de até 10/20 Gbps (SuperSpeed+)
+    - Conector tipo C
+</code></pre>
+</section><section>
+<h3 id="atente-para-os-conectores">Atente para os conectores!</h3>
+<p><img src="https://i0.wp.com/quenotebookcomprar.com.br/wp-content/uploads/2021/07/Diferentes-formatos-de-USB-tipo-A-B-C-mini-micro-USB.jpg?resize=720%2C340&ssl=1
+" width="700" height="500" alt="teste"></p>
+</section><section>
+<img src="https://m.media-amazon.com/images/I/615TNSrLB8L._AC_SX425_.jpg" width="350" height="700" alt="teste">
+</section><section>
+<img src="https://upload.wikimedia.org/wikipedia/commons/f/fd/USB_2_and_3.jpg" width="900" height="600" alt="teste">
+<p><a href="https://www.infowester.com/usb30.php">Leitura complementar</a></p>
+</section><section>
+<h3 id="led---light-emissor-diode">LED -&gt; Light Emissor Diode</h3>
+<ul>
+<li>
+<p>Diodo emissor de luz</p>
+</li>
+<li>
+<p>Funcionamento dos LEDS</p>
+<ul>
+<li>LED POWER</li>
+<li>LED HD</li>
+</ul>
+</li>
+</ul>
+<p><img src="https://tecdicas.com/content/images/2019/11/led_cathodo_anodo.jpg
+" width="444" height="294" alt="teste"></p>
+</section><section>
+<ul>
+<li>Funcionamento do botão</li>
+</ul>
+<p><img src="https://dalousaarobotica.com.br/wp-content/uploads/2020/08/Push-Button.png" alt=""></p>
+<pre><code>- Botão de Power
+- Botão de Reset
+</code></pre>
+
+</section>
+</section>
+    <section>
+
+<section data-shortcode-section>
+<h1 id="prática">Prática</h1>
+</section><section>
+<p>Início: Análise do manual da placa-mãe Gigabyte GA-B75M-D2V</p>
+<p><a href="https://download1.gigabyte.com/Files/Manual/mb_manual_ga-b75m-d2v_e.pdf?v=84a3fa1af07801d55d663cd908a448d6">Manual completo</a></p>
+<p><a href="https://download1.gigabyte.com/Files/Manual/mb_manual_ga-b75m-d2v_e.pdf?v=84a3fa1af07801d55d663cd908a448d6">Traduções simplificadas</a></p>
+</section><section>
+<h1 id="inicialização-do-computador">Inicialização do computador</h1>
+<ul>
+<li>Entendendo o procedimento de inicialização do computador</li>
+</ul>
+</section><section>
+<ul>
+<li>Prática 1. Teste do botão</li>
+</ul>
+</section><section>
+<ul>
+<li>Prática 2. Teste LED</li>
+</ul>
+</section><section>
+<ul>
+<li>Prática 3. Conexão do painel frontal</li>
+</ul>
+</section><section>
+<ul>
+<li>Prática 4. Partida no computador sem botão/painel frontal</li>
+</ul>
+</section><section>
+<ul>
+<li>Prática 5. Teste de fonte (básico)</li>
+</ul>
+</section><section>
+<ul>
+<li>Prática 6. Conexão Memória Secundária</li>
+</ul>
+</section><section>
+<ul>
+<li>Prática 7. Conexão painel frontal - áudio</li>
+</ul>
+</section><section>
+<ul>
+<li>Prática 8. Conexão USBs - painel frontal</li>
+</ul>
+
+</section>
+</section>
+
+</div>
+      
+
+    </div>
+<script type="text/javascript" src=/iem-aula02/reveal-hugo/object-assign.js></script>
+
+<a href="/iem-aula02/reveal-js/css/print/" id="print-location" style="display: none;"></a>
+<script type="text/javascript">
+  var printLocationElement = document.getElementById('print-location');
+  var link = document.createElement('link');
+  link.rel = 'stylesheet';
+  link.type = 'text/css';
+  link.href = printLocationElement.href + (window.location.search.match(/print-pdf/gi) ? 'pdf.css' : 'paper.css');
+  document.getElementsByTagName('head')[0].appendChild(link);
+</script>
+
+<script type="application/json" id="reveal-hugo-site-params">null</script>
+<script type="application/json" id="reveal-hugo-page-params">{"custom_theme":"robot-lung.css","highlight_theme":"color-brewer","margin":0.2,"transition":"slide","transition_speed":"fast"}</script>
+
+<script src="/iem-aula02/reveal-js/js/reveal.js"></script>
+
+<script type="text/javascript">
+  
+  
+  function camelize(map) {
+    if (map) {
+      Object.keys(map).forEach(function(k) {
+        newK = k.replace(/(\_\w)/g, function(m) { return m[1].toUpperCase() });
+        if (newK != k) {
+          map[newK] = map[k];
+          delete map[k];
+        }
+      });
+    }
+    return map;
+  }
+  
+  var revealHugoDefaults = { center: true, controls: true, history: true, progress: true, transition: "slide" };
+  var revealHugoSiteParams = JSON.parse(document.getElementById('reveal-hugo-site-params').innerHTML);
+  var revealHugoPageParams = JSON.parse(document.getElementById('reveal-hugo-page-params').innerHTML);
+  
+  var options = Object.assign({},
+    camelize(revealHugoDefaults),
+    camelize(revealHugoSiteParams),
+    camelize(revealHugoPageParams));
+  Reveal.initialize(options);
+</script>
+
+
+  
+  
+  <script type="text/javascript" src="/iem-aula02/reveal-js/plugin/markdown/marked.js"></script>
+  
+  <script type="text/javascript" src="/iem-aula02/reveal-js/plugin/markdown/markdown.js"></script>
+  
+  <script type="text/javascript" src="/iem-aula02/reveal-js/plugin/highlight/highlight.js"></script>
+  
+  <script type="text/javascript" src="/iem-aula02/reveal-js/plugin/zoom-js/zoom.js"></script>
+  
+  
+  <script type="text/javascript" src="/iem-aula02/reveal-js/plugin/notes/notes.js"></script>
+
+
+
+    
+    
+  </body>
+</html>

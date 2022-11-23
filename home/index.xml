@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Homes on Aula 02</title>
+    <link>https://jp-guimaraes.github.io/iem-aula02/home/</link>
+    <description>Recent content in Homes on Aula 02</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://jp-guimaraes.github.io/iem-aula02/home/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>https://jp-guimaraes.github.io/iem-aula02/home/intro/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://jp-guimaraes.github.io/iem-aula02/home/intro/</guid>
+      <description> Objetivos   Rápida revisão sobre os componentes do painel frontal
+  Teoria painel frontal
+  Instalação do painel frontal - práticas
+   Sumário  Componentes do painel frontal Aspectos teóricos relacionados a prática do painel frontal Roteiro - práticas do painel frontal   </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://jp-guimaraes.github.io/iem-aula02/home/painel_frontal/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://jp-guimaraes.github.io/iem-aula02/home/painel_frontal/</guid>
+      <description>Painel frontal  Componentes  Componentes do painel frontal  USBs Saída para fone de ouvido Entrada para microfone Botões (ligar/desligar + reset) Luzes indicadoras Drive de cd/DVD/Bluray HD externo Mostrador de temperatura Controladores de FAN     Conexões  Conexões - Memória secundária  SATA -&amp;gt; Placa mãe Cabo de energia -&amp;gt; Fonte     USB – USB 1.0 – Taxa de transferência de até 1.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://jp-guimaraes.github.io/iem-aula02/home/praticas/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://jp-guimaraes.github.io/iem-aula02/home/praticas/</guid>
+      <description>Prática  Início: Análise do manual da placa-mãe Gigabyte GA-B75M-D2V
+Manual completo
+Traduções simplificadas
+ Inicialização do computador  Entendendo o procedimento de inicialização do computador    Prática 1. Teste do botão    Prática 2. Teste LED    Prática 3. Conexão do painel frontal    Prática 4. Partida no computador sem botão/painel frontal    Prática 5. Teste de fonte (básico)    Prática 6.</description>
+    </item>
+    
+  </channel>
+</rss>
